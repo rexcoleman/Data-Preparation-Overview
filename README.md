@@ -24,10 +24,10 @@ Data preparation is a critical step in the data science process that directly im
     - [3.4 Feature Engineering](#34-feature-engineering)
         - [3.4.1 Creating New Features](#341-creating-new-features)
         - [3.4.2 Feature Selection](#342-feature-selection)
-        - [3.4.3 Managing Unbalanced Data](#343-managing-unbalanced-data)
-    - [3.5 Data Integration](#35-data-integration)
-        - [3.5.1 Combining Data from Multiple Sources](#351-combining-data-from-multiple-sources)
-        - [3.5.2 Ensuring Data Integrity](#352-ensuring-data-integrity)
+    - [3.5 Managing Unbalanced Data](#35-managing-unbalanced-data)
+    - [3.6 Data Integration](#36-data-integration)
+        - [3.6.1 Combining Data from Multiple Sources](#361-combining-data-from-multiple-sources)
+        - [3.6.2 Ensuring Data Integrity](#362-ensuring-data-integrity)
 4. [Challenges in Data Preparation](#4-challenges-in-data-preparation)
     - [4.1 Data Quality Issues](#41-data-quality-issues)
     - [4.2 Handling Large Datasets](#42-handling-large-datasets)
@@ -96,7 +96,7 @@ Feature engineering involves creating new features from existing data to better 
 #### 3.4.2 Feature Selection
 Feature selection involves identifying the most relevant features for the analysis, which helps improve model performance and reduce complexity. Techniques for feature selection include correlation analysis, recursive feature elimination, and using feature importance scores from models.
 
-### 3.4.3 Managing Unbalanced Data
+### 3.5 Managing Unbalanced Data
 
 Managing unbalanced data is a crucial aspect of data preparation, especially in cybersecurity where certain types of attacks or anomalies may be rare. Unbalanced data can lead to biased models that perform poorly on minority classes. Here are best practices and techniques for handling unbalanced data:
 
@@ -130,12 +130,12 @@ Managing unbalanced data is a crucial aspect of data preparation, especially in 
 
 By implementing these techniques, data scientists can effectively manage unbalanced data, leading to more robust and reliable models that perform well across all classes.
 
-### 3.5 Data Integration
+### 3.6 Data Integration
 
-#### 3.5.1 Combining Data from Multiple Sources
+#### 3.6.1 Combining Data from Multiple Sources
 Data integration involves merging data from different sources to create a comprehensive dataset. This can include combining data from databases, APIs, flat files, and other sources. The goal is to ensure that the integrated dataset is complete and consistent.
 
-#### 3.5.2 Ensuring Data Integrity
+#### 3.6.2 Ensuring Data Integrity
 Ensuring data integrity involves verifying that the integrated data is accurate, complete, and consistent. This can include validating data formats, checking for duplicate records, and ensuring that relationships between data points are preserved.
 
 ## 4. Challenges in Data Preparation
